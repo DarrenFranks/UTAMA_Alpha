@@ -1,4 +1,4 @@
-﻿Log file open, 12/02/18 10:58:01
+﻿Log file open, 12/02/18 15:02:51
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UTAMA_Alpha
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(154494593) SRandInit(154494593).
+LogInit: Display: RandInit(1749381892) SRandInit(1749381892).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.255273
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.804610
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  3.763s to configure plugins.
+LogStreaming: Display: Took  3.448s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-03EVT9J (192.168.1.2:0)
+LogInit: WinSock: I am DESKTOP-GSMP8EH (192.168.0.19:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -217,857 +217,754 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.012s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.12.02-10.58.06:610][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.02-10.58.06:610][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.12.02-10.58.06:743][  0]LogInit: Computer: DESKTOP-03EVT9J
-[2018.12.02-10.58.06:743][  0]LogInit: User: User
-[2018.12.02-10.58.06:743][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.12.02-10.58.06:743][  0]LogInit: High frequency timer resolution =3.021663 MHz
-[2018.12.02-10.58.06:744][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.12.02-10.58.06:744][  0]LogMemory: Platform Memory Stats for Windows
-[2018.12.02-10.58.06:744][  0]LogMemory: Process Physical Memory: 272.79 MB used, 272.79 MB peak
-[2018.12.02-10.58.06:744][  0]LogMemory: Process Virtual Memory: 261.93 MB used, 261.93 MB peak
-[2018.12.02-10.58.06:744][  0]LogMemory: Physical Memory: 3823.11 MB used,  4305.27 MB free, 8128.37 MB total
-[2018.12.02-10.58.06:744][  0]LogMemory: Virtual Memory: 4781.90 MB used,  4305.27 MB free, 134217728.00 MB total
-[2018.12.02-10.58.07:469][  0]LogInit: Using OS detected language (en-GB).
-[2018.12.02-10.58.07:469][  0]LogInit: Using OS detected locale (en-GB).
-[2018.12.02-10.58.07:793][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.12.02-10.58.08:801][  0]LogStreaming: Display: Took  1.320s to EndInitTextLocalization.
-[2018.12.02-10.58.08:821][  0]LogInit: Setting process to per monitor DPI aware
-[2018.12.02-10.58.09:628][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.12.02-10.58.09:628][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.12.02-10.58.14:659][  0]LogD3D11RHI: D3D11 adapters:
-[2018.12.02-10.58.14:755][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2018.12.02-10.58.14:755][  0]LogD3D11RHI:       4018/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.12.02-10.58.14:758][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.12.02-10.58.14:758][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.12.02-10.58.14:758][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.12.02-10.58.14:768][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.12.02-10.58.14:769][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2018.12.02-10.58.14:769][  0]LogWindows: EnumDisplayDevices:
-[2018.12.02-10.58.14:769][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2018.12.02-10.58.14:769][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.12.02-10.58.14:769][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.12.02-10.58.14:769][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.12.02-10.58.14:769][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.12.02-10.58.14:769][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2018.12.02-10.58.14:769][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.12.02-10.58.14:769][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.12.02-10.58.14:770][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2018.12.02-10.58.14:857][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.12.02-10.58.14:857][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.12.02-10.58.14:857][  0]LogD3D11RHI: Async texture creation enabled
-[2018.12.02-10.58.15:186][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.12.02-10.58.15:274][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Intermediate/Shaders/WorkingDirectory/592/).
-[2018.12.02-10.58.15:284][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/5C44179C48DE343DF8A65B8D512B70D1/'.
-[2018.12.02-10.58.16:597][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.12.02-10.58.16:618][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.12.02-10.58.16:640][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.12.02-10.58.16:662][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.12.02-10.58.16:712][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.12.02-10.58.16:733][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.12.02-10.58.16:755][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.12.02-10.58.16:777][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.12.02-10.58.16:788][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.12.02-10.58.16:809][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.12.02-10.58.16:829][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.12.02-10.58.16:849][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.12.02-10.58.16:869][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.12.02-10.58.16:888][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.12.02-10.58.16:908][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.12.02-10.58.16:972][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.12.02-10.58.16:972][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.12.02-10.58.17:004][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.02-10.58.17:007][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.12.02-10.58.17:077][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.02-10.58.17:095][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.02-10.58.17:114][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.12.02-10.58.17:133][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.12.02-10.58.17:165][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.12.02-10.58.17:197][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.12.02-10.58.17:197][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.12.02-10.58.18:044][  0]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.12.02-10.58.18:045][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.12.02-10.58.18:065][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.12.02-10.58.18:065][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.12.02-10.58.23:307][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.12.02-10.58.23:916][  0]LogDerivedDataCache: Loaded boot cache 0.60s 74MB C:/Users/User/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.12.02-10.58.23:916][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.12.02-10.58.23:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.12.02-10.58.23:916][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.12.02-10.58.23:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.12.02-10.58.23:916][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.12.02-10.58.23:983][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.12.02-10.58.23:995][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.12.02-10.58.23:995][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.12.02-10.58.23:995][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.12.02-10.58.24:025][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.12.02-10.58.24:082][  0]LogSlate: Using Freetype 2.6.0
-[2018.12.02-10.58.24:153][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.02-10.58.24:153][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.02-10.58.29:218][  0]LogAssetRegistry: FAssetRegistry took 0.0492 seconds to start up
-[2018.12.02-10.58.34:037][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.02-10.58.36:287][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.12.02-10.58.36:344][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.12.02-10.58.36:344][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.12.02-10.58.36:344][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.12.02-10.58.36:344][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.12.02-10.58.36:344][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.12.02-10.58.36:704][  0]LogNetVersion: UTAMA_Alpha , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1343494140)
-[2018.12.02-10.58.42:103][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.229367 seconds
-[2018.12.02-10.58.42:131][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.12.02-10.58.42:131][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.12.02-10.58.42:131][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.12.02-10.59.18:563][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.12.02-10.59.18:618][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.12.02-10.59.19:751][  0]SourceControl: Source control is disabled
-[2018.12.02-10.59.23:611][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.12.02-10.59.23:988][  0]LogOcInput: OculusInput pre-init called
-[2018.12.02-10.59.24:704][  0]LogEngine: Initializing Engine...
-[2018.12.02-10.59.24:735][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.12.02-10.59.24:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.02-10.59.24:757][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.02-10.59.26:466][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.12.02-10.59.26:745][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.02-10.59.26:770][  0]LogInit: FAudioDevice initialized.
-[2018.12.02-10.59.26:980][  0]LogDerivedDataCache: Saved boot cache 0.17s 74MB C:/Users/User/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.12.02-10.59.27:003][  0]LogInit: Texture streaming: Enabled
-[2018.12.02-10.59.27:145][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.12.02-10.59.27:407][  0]LogInit: Transaction tracking system initialized
-[2018.12.02-10.59.28:194][  0]BlueprintLog: New page: Editor Load
-[2018.12.02-10.59.29:762][  0]LocalizationService: Localization service is disabled
-[2018.12.02-10.59.30:929][  0]LogConsoleResponse: Display: 
-[2018.12.02-10.59.34:586][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/' took 0.07s
-[2018.12.02-10.59.34:586][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.12.02-10.59.34:586][  0]LogCook: Display: Mobile HDR setting 1
-[2018.12.02-10.59.34:586][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.12.02-10.59.34:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.02-10.59.34:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.02-10.59.38:891][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.02-10.59.38:901][  0]LightingResults: New page: Lighting Build
-[2018.12.02-10.59.39:096][  0]MapCheck: New page: Map Check
-[2018.12.02-10.59.39:096][  0]LightingResults: New page: Lighting Build
-[2018.12.02-10.59.40:252][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021045a85d40, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.12.02-10.59.40:350][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021045a85d40, Size=64
-[2018.12.02-10.59.40:350][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021045a85e80, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.12.02-10.59.40:424][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021045661120, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.12.02-10.59.40:991][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021045604b80, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.12.02-10.59.41:037][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021045604b80, Size=296
-[2018.12.02-10.59.41:037][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002104f067d80, Size=296, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_4:ExecuteUbergraph_ThirdPersonCharacter
-[2018.12.02-10.59.41:045][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002104f067100, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.12.02-10.59.42:785][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [79.431091ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2018.12.02-10.59.47:893][  0]LogAIModule: Creating AISystem for world ALPHA2
-[2018.12.02-10.59.48:825][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.02-10.59.48:941][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021045a85e80, Size=64
-[2018.12.02-10.59.48:943][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002104f067d80, Size=296
-[2018.12.02-10.59.49:004][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.02-10.59.49:087][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.112ms to complete.
-[2018.12.02-10.59.49:088][  0]LogFileHelpers: Loading map 'ALPHA2' took 10.213
-[2018.12.02-10.59.51:955][  0]LogCollectionManager: Loaded 0 collections in 0.002817 seconds
-[2018.12.02-10.59.52:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/Collections/' took 0.01s
-[2018.12.02-10.59.52:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/Developers/User/Collections/' took 0.01s
-[2018.12.02-10.59.52:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/Collections/' took 0.01s
-[2018.12.02-10.59.52:142][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.12.02-10.59.52:157][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2452 classes and 558 folders.
-[2018.12.02-10.59.52:366][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.12.02-10.59.54:473][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.12.02-10.59.54:528][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.12.02-10.59.55:706][  0]LogSlate: Took 0.038584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.12.02-10.59.55:857][  0]LogSlate: Took 0.107464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.12.02-10.59.55:951][  0]LogSlate: Took 0.020984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.12.02-10.59.56:573][  0]LogRenderer: Reallocating scene render targets to support 1332x668 Format 9 NumSamples 1 (Frame:1).
-[2018.12.02-10.59.57:340][  0]LogSlate: Took 0.031721 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.02-10.59.57:706][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.12.02-10.59.57:706][  0]LogLoad: (Engine Initialization) Total time: 129.32 seconds
-[2018.12.02-10.59.57:706][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.12.02-10.59.58:037][  0]LogContentStreaming: Texture pool size now 600 MB
-[2018.12.02-10.59.58:728][  3]LogAssetRegistry: Asset discovery search completed in 89.5500 seconds
-[2018.12.02-10.59.58:767][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.12.02-10.59.58:767][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.008716 seconds (updated 0 objects)
-[2018.12.02-11.02.29:185][362]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.02.46:571][302]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush158)
-[2018.12.02-11.03.14:478][892]LogEditorViewport: Clicking Background
-[2018.12.02-11.03.14:953][943]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush159)
-[2018.12.02-11.03.21:349][ 58]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.02-11.03.21:385][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.03.21:909][104]Cmd: TRANSACTION UNDO
-[2018.12.02-11.03.21:909][104]LogEditorTransaction: Undo Move Actors
-[2018.12.02-11.03.22:064][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush252.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:065][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush10_27.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:067][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush231.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:069][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush236.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:072][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush183_129.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:075][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush188_134.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:077][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush15_36.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:078][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush269.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:080][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:156][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:160][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush153.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:162][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush72.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:164][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush101.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:166][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush386_50.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:167][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush433.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:168][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush375_10.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:171][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush380_25.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:174][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush488.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:176][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush442.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:178][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush465.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:180][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush112_39.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:183][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush317.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:184][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush203.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:187][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush343.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:189][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush364.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:191][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.LinearStairBrush14.BrushComponent0) Component already registered.
-[2018.12.02-11.03.22:192][104]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush132_47.BrushComponent0) Component already registered.
-[2018.12.02-11.03.27:701][267]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush148)
-[2018.12.02-11.03.30:378][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.04.29:786][586]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.04.35:327][ 83]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush158)
-[2018.12.02-11.05.08:178][737]LogEditorViewport: Clicking Background
-[2018.12.02-11.05.12:315][213]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush159)
-[2018.12.02-11.05.13:532][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.05.38:074][856]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.05.45:038][195]LogEditorViewport: Clicking Background
-[2018.12.02-11.05.49:447][682]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush161)
-[2018.12.02-11.05.50:841][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.06.01:232][210]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.06.34:333][570]LogEditorViewport: Clicking Background
-[2018.12.02-11.06.38:475][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.06.56:711][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.06.56:794][616]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.02-11.06.56:909][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.02-11.06.57:014][616]PIE: New page: PIE session: ALPHA2 (2 Dec 2018 11:06:56)
-[2018.12.02-11.06.57:028][616]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ALPHA2
-[2018.12.02-11.06.57:273][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.244483s)
-[2018.12.02-11.06.57:274][616]LogAIModule: Creating AISystem for world ALPHA2
-[2018.12.02-11.06.57:290][616]LogPlayLevel: PIE: World Init took: (0.016994s)
-[2018.12.02-11.06.57:290][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ALPHA2.ALPHA2 to /Game/UEDPIE_0_ALPHA2.ALPHA2 (0.262016s)
-[2018.12.02-11.06.57:370][616]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.02-11.06.57:384][616]LogInit: FAudioDevice initialized.
-[2018.12.02-11.06.57:499][616]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.12.02-11.06.57:681][616]LogWorld: Bringing World /Game/UEDPIE_0_ALPHA2.ALPHA2 up for play (max tick rate 0) at 2018.12.02-11.06.57
-[2018.12.02-11.06.57:812][616]LogWorld: Bringing up level for play took: 0.182829
-[2018.12.02-11.06.57:912][616]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2018.12.02-11.06.57:940][616]PIE: Play in editor start time for /Game/UEDPIE_0_ALPHA2 0.85
-[2018.12.02-11.07.27:343][466]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush260)
-[2018.12.02-11.07.39:546][737]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush155)
-[2018.12.02-11.07.40:463][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.08.40:844][478]LogEditorViewport: Clicking Background
-[2018.12.02-11.08.43:768][814]LogEditorViewport: Clicking Background
-[2018.12.02-11.08.44:241][868]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush260)
-[2018.12.02-11.08.45:371][975]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush149)
-[2018.12.02-11.08.49:659][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.08.52:713][398]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush260)
-[2018.12.02-11.09.01:907][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.09.19:570][206]Cmd: DUPLICATE
-[2018.12.02-11.09.19:570][206]Cmd: ACTOR DUPLICATE
-[2018.12.02-11.09.22:985][206]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.09.26:765][206]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.09.28:755][394]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush148)
-[2018.12.02-11.09.31:522][675]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush260)
-[2018.12.02-11.09.32:167][735]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush342)
-[2018.12.02-11.09.34:441][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.09.41:666][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.09.55:801][832]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.10.10:509][ 63]LogEditorViewport: Clicking Background
-[2018.12.02-11.10.36:013][796]LogEditorViewport: Clicking Background
-[2018.12.02-11.10.36:333][832]LogEditorViewport: Clicking Background
-[2018.12.02-11.10.36:973][906]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush223)
-[2018.12.02-11.10.38:591][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.10.54:959][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.11.03:562][987]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.11.06:047][229]LogEditorViewport: Clicking Background
-[2018.12.02-11.11.16:828][731]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush277)
-[2018.12.02-11.11.19:174][934]LogEditorViewport: Clicking on Actor (CTRL LMB): SkeletalMeshActor (SK_Mannequin)
-[2018.12.02-11.11.29:904][674]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush280)
-[2018.12.02-11.11.56:203][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.12.02-11.11.59:992][891]LogSavePackage: Save=3467.89ms
-[2018.12.02-11.11.59:992][891]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2_Auto1291DA3D648E0754157BCFBBCD34E9BAE.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto1.umap'
-[2018.12.02-11.12.00:597][891]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto1.umap
-[2018.12.02-11.12.01:046][891]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ALPHA2' took 5.201
-[2018.12.02-11.12.01:126][891]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.201
-[2018.12.02-11.12.05:428][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.12.21:457][144]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush223)
-[2018.12.02-11.12.22:838][279]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush280)
-[2018.12.02-11.12.25:612][557]LogEditorViewport: Clicking Background
-[2018.12.02-11.12.26:108][612]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush281)
-[2018.12.02-11.12.28:166][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.12.37:504][416]LogEditorViewport: Clicking Background
-[2018.12.02-11.12.38:764][561]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush223)
-[2018.12.02-11.12.42:868][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.12.45:921][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.12.55:413][996]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.13.05:361][437]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.13.08:173][705]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush276)
-[2018.12.02-11.13.14:345][299]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush281)
-[2018.12.02-11.13.16:663][519]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush283)
-[2018.12.02-11.13.23:250][790]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.13.28:698][321]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush241)
-[2018.12.02-11.13.29:961][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.13.35:948][796]LogEditorViewport: Clicking Background
-[2018.12.02-11.13.36:426][849]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush254)
-[2018.12.02-11.13.38:882][ 95]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush241)
-[2018.12.02-11.13.40:529][260]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush237)
-[2018.12.02-11.13.43:214][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.13.54:448][208]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush241)
-[2018.12.02-11.13.55:563][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.13.59:067][460]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush237)
-[2018.12.02-11.13.59:853][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.14.08:435][ 60]LogEditorViewport: Clicking Background
-[2018.12.02-11.14.09:067][131]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush238)
-[2018.12.02-11.14.09:951][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.14.18:700][526]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.14.19:443][596]LogEditorViewport: Clicking Background
-[2018.12.02-11.14.51:592][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.15.03:063][ 44]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush268)
-[2018.12.02-11.15.03:790][110]LogEditorViewport: Clicking Background
-[2018.12.02-11.15.06:004][352]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush278)
-[2018.12.02-11.15.07:053][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.15.27:542][960]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.15.28:472][ 48]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush223)
-[2018.12.02-11.15.34:449][630]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Sphere Brush29)
-[2018.12.02-11.15.35:468][720]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush277)
-[2018.12.02-11.15.38:956][ 51]LogEditorViewport: Clicking on Actor (CTRL LMB): SkeletalMeshActor (SK_Mannequin)
-[2018.12.02-11.15.44:969][445]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush280)
-[2018.12.02-11.15.46:910][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.16.10:711][825]LogEditorViewport: Clicking Background
-[2018.12.02-11.16.14:699][228]LogEditorViewport: Clicking Background
-[2018.12.02-11.16.14:989][257]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush278)
-[2018.12.02-11.21.46:956][439]LogEditorViewport: Clicking Background
-[2018.12.02-11.21.50:579][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.21.51:727][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.02-11.21.54:211][781]LogSavePackage: Save=2319.56ms
-[2018.12.02-11.21.54:211][781]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2C70ECE3A4880F40728DD17BE0B4047A5.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap'
-[2018.12.02-11.21.54:223][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap
-[2018.12.02-11.21.54:526][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2_BuiltData" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset" SILENT=true
-[2018.12.02-11.21.55:562][781]LogSavePackage: Save=948.41ms
-[2018.12.02-11.21.55:562][781]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2_BuiltData16A8F2D34EA55C34425CCC975D684459.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset'
-[2018.12.02-11.21.55:565][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset
-[2018.12.02-11.23.38:416][343]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush182)
-[2018.12.02-11.23.39:454][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.23.52:275][239]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush188)
-[2018.12.02-11.23.53:451][345]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush187)
-[2018.12.02-11.23.54:011][396]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush188)
-[2018.12.02-11.23.55:301][519]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush196)
-[2018.12.02-11.23.56:377][619]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush184)
-[2018.12.02-11.23.57:063][682]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush191)
-[2018.12.02-11.23.58:765][841]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush190)
-[2018.12.02-11.23.59:528][911]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush286)
-[2018.12.02-11.24.00:625][ 12]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush194)
-[2018.12.02-11.24.07:427][480]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush194)
-[2018.12.02-11.24.12:134][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.24.20:975][341]LogEditorViewport: Clicking Background
-[2018.12.02-11.24.24:789][769]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush196)
-[2018.12.02-11.24.25:939][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.24.33:992][313]LogEditorViewport: Clicking Background
-[2018.12.02-11.24.34:341][351]LogEditorViewport: Clicking Background
-[2018.12.02-11.24.34:695][391]LogEditorViewport: Clicking Background
-[2018.12.02-11.24.35:049][431]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush184)
-[2018.12.02-11.24.41:330][843]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush165)
-[2018.12.02-11.24.43:378][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.24.57:931][462]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush124)
-[2018.12.02-11.25.37:798][938]Cmd: TRANSACTION UNDO
-[2018.12.02-11.25.37:798][938]LogEditorTransaction: Undo Move Actors
-[2018.12.02-11.25.37:926][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush9.BrushComponent0) Component already registered.
-[2018.12.02-11.25.37:932][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush222.BrushComponent0) Component already registered.
-[2018.12.02-11.25.37:934][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush2_10.BrushComponent0) Component already registered.
-[2018.12.02-11.25.37:935][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush228.BrushComponent0) Component already registered.
-[2018.12.02-11.25.37:935][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush183_129.BrushComponent0) Component already registered.
-[2018.12.02-11.25.37:941][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush7_20.BrushComponent0) Component already registered.
-[2018.12.02-11.25.37:943][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
-[2018.12.02-11.25.37:944][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
-[2018.12.02-11.25.37:945][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:044][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush169_76.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:046][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SK_Mannequin38.SkeletalMeshComponent0) Component already registered.
-[2018.12.02-11.25.38:050][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush105.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:057][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SpiralStairBrush.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:059][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush420.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:062][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush425.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:064][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush369.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:064][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush405.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:067][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush471.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:068][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush498.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:069][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush371.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:074][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush25.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:081][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush103.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:086][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush354_11.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:087][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
-[2018.12.02-11.25.38:089][938]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush332.BrushComponent0) Component already registered.
-[2018.12.02-11.25.53:233][ 52]LogEditorViewport: Clicking Background
-[2018.12.02-11.25.53:561][ 86]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush165)
-[2018.12.02-11.25.54:704][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.26.04:513][798]LogEditorViewport: Clicking Background
-[2018.12.02-11.26.05:599][922]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush49)
-[2018.12.02-11.26.06:294][988]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush175)
-[2018.12.02-11.26.06:826][ 37]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush49)
-[2018.12.02-11.26.15:005][631]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush165)
-[2018.12.02-11.26.18:445][978]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush175)
-[2018.12.02-11.26.19:713][103]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush171)
-[2018.12.02-11.26.20:421][170]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush166)
-[2018.12.02-11.26.21:190][242]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush170)
-[2018.12.02-11.26.22:801][399]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush173)
-[2018.12.02-11.26.23:219][436]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush266)
-[2018.12.02-11.26.24:008][511]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush176)
-[2018.12.02-11.26.29:757][909]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush176)
-[2018.12.02-11.26.31:122][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.26.45:890][938]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush178)
-[2018.12.02-11.26.46:815][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.26.56:265][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.26.57:059][581]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.26.57:066][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.02-11.26.58:959][581]LogSavePackage: Save=1775.97ms
-[2018.12.02-11.26.58:959][581]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2D67BBDB84764F4D36D464D9BE5468605.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap'
-[2018.12.02-11.26.58:970][581]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap
-[2018.12.02-11.26.59:938][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2_BuiltData" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset" SILENT=true
-[2018.12.02-11.27.00:645][581]LogSavePackage: Save=683.16ms
-[2018.12.02-11.27.00:646][581]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2_BuiltData89E1413547A693820401BF8F684E587F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset'
-[2018.12.02-11.27.00:649][581]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset
-[2018.12.02-11.27.13:653][873]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush225)
-[2018.12.02-11.27.25:208][ 44]LogEditorViewport: Clicking on Actor (LMB): Brush (Sphere Brush29)
-[2018.12.02-11.27.26:113][122]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush170)
-[2018.12.02-11.27.27:992][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.27.28:224][316]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.27.28:232][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.02-11.27.29:963][316]LogSavePackage: Save=1701.39ms
-[2018.12.02-11.27.29:963][316]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA275DF65D4472B40CD124731AE7E340F15.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap'
-[2018.12.02-11.27.29:967][316]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap
-[2018.12.02-11.27.30:140][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2_BuiltData" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset" SILENT=true
-[2018.12.02-11.27.30:644][316]LogSavePackage: Save=498.69ms
-[2018.12.02-11.27.30:645][316]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2_BuiltData007DB60E447E7658856D43ABB6D57310.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset'
-[2018.12.02-11.27.30:647][316]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset
-[2018.12.02-11.27.37:557][813]Cmd: TRANSACTION UNDO
-[2018.12.02-11.27.37:557][813]LogEditorTransaction: Undo Move Actors
-[2018.12.02-11.27.37:693][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush252.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:694][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush10_27.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:696][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush231.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:699][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush236.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:701][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush283.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:702][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush199.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:705][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush15_36.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:707][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush173_80.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:708][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:711][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:798][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:800][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush128.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:801][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:803][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:807][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush420.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:814][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush396.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:817][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush489.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:819][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush443.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:821][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush466.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:825][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush304.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:827][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush143_164.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:829][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush219.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:831][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush142.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:834][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush336.BrushComponent0) Component already registered.
-[2018.12.02-11.27.37:835][813]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
-[2018.12.02-11.27.40:097][926]Cmd: DUPLICATE
-[2018.12.02-11.27.40:097][926]Cmd: ACTOR DUPLICATE
-[2018.12.02-11.27.46:032][926]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.27.52:288][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.27.57:607][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.28.23:415][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.28.44:261][393]LogEditorViewport: Clicking Background
-[2018.12.02-11.28.46:167][608]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush248)
-[2018.12.02-11.28.50:754][ 75]Cmd: DUPLICATE
-[2018.12.02-11.28.50:754][ 75]Cmd: ACTOR DUPLICATE
-[2018.12.02-11.28.58:117][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.29.08:221][355]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush248)
-[2018.12.02-11.29.10:556][591]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush501)
-[2018.12.02-11.29.11:420][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.29.28:405][691]LogEditorViewport: Clicking Background
-[2018.12.02-11.29.36:845][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.29.37:055][607]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.29.37:061][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.02-11.29.38:896][607]LogSavePackage: Save=1774.69ms
-[2018.12.02-11.29.38:896][607]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA22EF6E16C4AAD3C873ACB3A82A9936BCE.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap'
-[2018.12.02-11.29.38:903][607]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap
-[2018.12.02-11.29.39:079][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2_BuiltData" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset" SILENT=true
-[2018.12.02-11.29.39:529][607]LogSavePackage: Save=444.99ms
-[2018.12.02-11.29.39:529][607]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2_BuiltDataB413AD56475E8F9454503A8FC765B9A6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset'
-[2018.12.02-11.29.39:532][607]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset
-[2018.12.02-11.29.49:330][534]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.30.04:625][809]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.30.14:471][561]LogEditorViewport: Clicking Background
-[2018.12.02-11.30.15:032][589]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.30.16:490][668]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.30.19:018][863]LogEditorViewport: Clicking Background
-[2018.12.02-11.30.19:631][919]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush498)
-[2018.12.02-11.30.20:319][979]LogEditorViewport: Clicking Background
-[2018.12.02-11.30.21:011][ 52]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush498)
-[2018.12.02-11.30.32:730][817]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush248)
-[2018.12.02-11.30.34:006][900]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush501)
-[2018.12.02-11.30.48:022][804]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush501)
-[2018.12.02-11.30.56:258][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.30.57:942][253]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.31.00:511][484]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush225)
-[2018.12.02-11.31.02:350][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.31.12:097][277]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush209)
-[2018.12.02-11.31.13:427][399]LogEditorViewport: Clicking Background
-[2018.12.02-11.31.14:415][510]LogEditorViewport: Clicking Background
-[2018.12.02-11.31.14:821][555]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush111)
-[2018.12.02-11.31.17:020][757]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush225)
-[2018.12.02-11.31.18:278][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.31.22:304][120]Cmd: DUPLICATE
-[2018.12.02-11.31.22:304][120]Cmd: ACTOR DUPLICATE
-[2018.12.02-11.32.03:604][293]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.32.06:515][405]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush248)
-[2018.12.02-11.32.07:451][495]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush501)
-[2018.12.02-11.32.11:952][956]Cmd: DUPLICATE
-[2018.12.02-11.32.11:952][956]Cmd: ACTOR DUPLICATE
-[2018.12.02-11.32.17:985][ 99]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush501)
-[2018.12.02-11.32.18:608][156]Cmd: DELETE
-[2018.12.02-11.32.18:608][156]Cmd: ACTOR DELETE
-[2018.12.02-11.32.18:769][156]LogEditorActor: Deleted Actor: Brush
-[2018.12.02-11.32.20:452][156]LogEditorActor: Deleted 1 Actors (1.844 secs)
-[2018.12.02-11.32.20:999][214]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush248)
-[2018.12.02-11.32.21:453][254]Cmd: DELETE
-[2018.12.02-11.32.21:453][254]Cmd: ACTOR DELETE
-[2018.12.02-11.32.21:515][254]LogEditorActor: Deleted Actor: Brush
-[2018.12.02-11.32.23:389][254]LogEditorActor: Deleted 1 Actors (1.937 secs)
-[2018.12.02-11.32.23:798][297]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush503)
-[2018.12.02-11.32.24:815][394]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush504)
-[2018.12.02-11.32.34:492][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.32.34:722][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.32.34:730][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.02-11.32.36:531][ 48]LogSavePackage: Save=1753.79ms
-[2018.12.02-11.32.36:531][ 48]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2B80920FB4AF61F9D5209D9BBB64F671D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap'
-[2018.12.02-11.32.36:537][ 48]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap
-[2018.12.02-11.32.36:761][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2_BuiltData" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset" SILENT=true
-[2018.12.02-11.32.37:236][ 48]LogSavePackage: Save=451.33ms
-[2018.12.02-11.32.37:236][ 48]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2_BuiltData431DCCCC4BC5A1AA0A47C78BEAC48367.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset'
-[2018.12.02-11.32.37:238][ 48]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset
-[2018.12.02-11.32.42:632][564]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush57)
-[2018.12.02-11.33.09:457][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.33.12:458][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.02-11.33.12:466][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.12.02-11.33.14:183][299]LogSavePackage: Save=1692.54ms
-[2018.12.02-11.33.14:183][299]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA27445A7F04578C4A7740FBC8580F45E47.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap'
-[2018.12.02-11.33.14:186][299]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2.umap
-[2018.12.02-11.33.14:367][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2_BuiltData" FILE="../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset" SILENT=true
-[2018.12.02-11.33.14:813][299]LogSavePackage: Save=441.33ms
-[2018.12.02-11.33.14:813][299]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/ALPHA2_BuiltData1FC9A6944976049A1DC89E877BD7031E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset'
-[2018.12.02-11.33.14:816][299]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/ALPHA2_BuiltData.uasset
-[2018.12.02-11.33.16:522][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.02-11.33.16:778][473]LogSlate: Window 'UTAMA_Alpha - Unreal Editor' being destroyed
-[2018.12.02-11.33.17:315][474]Cmd: QUIT_EDITOR
-[2018.12.02-11.33.18:348][474]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.02-11.33.18:394][474]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.12.02-11.33.18:401][474]LogExit: Preparing to exit.
-[2018.12.02-11.33.19:757][474]LogDirectoryWatcher: A directory notification for 'C:/Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/' was aborted.
-[2018.12.02-11.33.19:869][474]LogExit: Editor shut down
-[2018.12.02-11.33.19:883][474]LogExit: Transaction tracking system shut down
-[2018.12.02-11.33.19:884][474]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021045661120, Size=72
-[2018.12.02-11.33.19:885][474]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002104f067100, Size=296
-[2018.12.02-11.33.20:032][474]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.12.02-11.33.20:032][474]LogDirectoryWatcher: A directory notification for '../../../../../../Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/' was aborted.
-[2018.12.02-11.33.20:032][474]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.12.02-11.33.20:032][474]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.12.02-11.33.20:032][474]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.12.02-11.33.20:032][474]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.12.02-11.33.20:032][474]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.12.02-11.33.20:032][474]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.12.02-11.33.23:178][474]LogExit: Object subsystem successfully closed.
-[2018.12.02-11.33.23:355][474]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.12.02-11.33.23:384][474]LogD3D11RHI: Shutdown
-[2018.12.02-11.33.23:384][474]LogD3D11RHI: CleanupD3DDevice
-[2018.12.02-11.33.23:414][474]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.12.02-11.33.24:162][474]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (576)
-[2018.12.02-11.33.24:163][474]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
-[2018.12.02-11.33.24:163][474]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2018.12.02-11.33.24:163][474]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2018.12.02-11.33.24:187][474]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
-[2018.12.02-11.33.24:191][474]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2018.12.02-11.33.24:191][474]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2018.12.02-11.33.24:192][474]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2018.12.02-11.33.24:219][474]LogDirectoryWatcher: A directory notification for 'C:/Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/Collections/' was aborted.
-[2018.12.02-11.33.24:219][474]LogDirectoryWatcher: A directory notification for 'C:/Users/User/Documents/Unreal Projects/UTAMA_Alpha/Content/Developers/User/Collections/' was aborted.
-[2018.12.02-11.33.24:219][474]LogDirectoryWatcher: A directory notification for 'C:/Users/User/Documents/Unreal Projects/UTAMA_Alpha/Saved/Collections/' was aborted.
-[2018.12.02-11.33.24:219][474]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2018.12.02-11.33.24:226][474]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2018.12.02-11.33.24:226][474]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2018.12.02-11.33.24:238][474]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2018.12.02-11.33.24:238][474]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2018.12.02-11.33.24:238][474]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2018.12.02-11.33.24:238][474]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2018.12.02-11.33.24:246][474]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2018.12.02-11.33.24:246][474]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2018.12.02-11.33.24:246][474]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2018.12.02-11.33.24:246][474]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2018.12.02-11.33.24:246][474]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2018.12.02-11.33.24:257][474]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2018.12.02-11.33.24:257][474]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2018.12.02-11.33.24:257][474]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2018.12.02-11.33.24:274][474]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2018.12.02-11.33.24:285][474]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2018.12.02-11.33.24:330][474]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2018.12.02-11.33.24:330][474]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2018.12.02-11.33.24:371][474]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2018.12.02-11.33.24:371][474]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2018.12.02-11.33.24:371][474]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2018.12.02-11.33.24:427][474]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2018.12.02-11.33.24:447][474]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2018.12.02-11.33.24:464][474]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2018.12.02-11.33.24:479][474]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2018.12.02-11.33.24:490][474]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2018.12.02-11.33.24:541][474]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2018.12.02-11.33.24:542][474]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2018.12.02-11.33.24:542][474]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2018.12.02-11.33.24:542][474]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2018.12.02-11.33.24:720][474]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2018.12.02-11.33.24:720][474]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2018.12.02-11.33.24:720][474]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2018.12.02-11.33.24:720][474]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2018.12.02-11.33.24:734][474]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2018.12.02-11.33.24:753][474]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2018.12.02-11.33.24:765][474]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2018.12.02-11.33.24:768][474]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2018.12.02-11.33.24:768][474]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2018.12.02-11.33.24:779][474]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2018.12.02-11.33.24:780][474]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2018.12.02-11.33.24:787][474]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2018.12.02-11.33.24:787][474]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2018.12.02-11.33.24:787][474]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2018.12.02-11.33.24:787][474]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2018.12.02-11.33.24:787][474]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2018.12.02-11.33.24:809][474]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2018.12.02-11.33.24:819][474]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2018.12.02-11.33.24:825][474]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2018.12.02-11.33.24:839][474]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2018.12.02-11.33.24:849][474]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2018.12.02-11.33.24:903][474]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2018.12.02-11.33.24:916][474]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2018.12.02-11.33.24:941][474]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2018.12.02-11.33.24:976][474]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2018.12.02-11.33.24:977][474]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2018.12.02-11.33.24:987][474]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2018.12.02-11.33.24:988][474]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2018.12.02-11.33.25:001][474]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2018.12.02-11.33.25:001][474]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2018.12.02-11.33.25:001][474]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2018.12.02-11.33.25:030][474]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2018.12.02-11.33.25:049][474]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2018.12.02-11.33.25:049][474]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2018.12.02-11.33.25:050][474]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2018.12.02-11.33.25:056][474]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2018.12.02-11.33.25:057][474]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2018.12.02-11.33.25:066][474]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2018.12.02-11.33.25:080][474]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2018.12.02-11.33.25:096][474]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2018.12.02-11.33.25:096][474]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2018.12.02-11.33.25:100][474]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
-[2018.12.02-11.33.25:109][474]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
-[2018.12.02-11.33.25:138][474]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
-[2018.12.02-11.33.25:168][474]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
-[2018.12.02-11.33.25:168][474]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
-[2018.12.02-11.33.25:168][474]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
-[2018.12.02-11.33.25:178][474]LogModuleManager: Shutting down and abandoning module OculusInput (364)
-[2018.12.02-11.33.25:191][474]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
-[2018.12.02-11.33.25:191][474]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
-[2018.12.02-11.33.25:191][474]LogModuleManager: Shutting down and abandoning module CableComponent (358)
-[2018.12.02-11.33.25:205][474]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
-[2018.12.02-11.33.25:205][474]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
-[2018.12.02-11.33.25:205][474]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
-[2018.12.02-11.33.25:205][474]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
-[2018.12.02-11.33.25:205][474]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
-[2018.12.02-11.33.25:231][474]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
-[2018.12.02-11.33.25:231][474]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
-[2018.12.02-11.33.25:231][474]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
-[2018.12.02-11.33.25:231][474]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
-[2018.12.02-11.33.25:246][474]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
-[2018.12.02-11.33.25:246][474]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
-[2018.12.02-11.33.25:246][474]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
-[2018.12.02-11.33.25:246][474]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
-[2018.12.02-11.33.25:246][474]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
-[2018.12.02-11.33.25:246][474]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
-[2018.12.02-11.33.25:246][474]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
-[2018.12.02-11.33.25:246][474]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
-[2018.12.02-11.33.25:248][474]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
-[2018.12.02-11.33.25:273][474]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
-[2018.12.02-11.33.25:283][474]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
-[2018.12.02-11.33.25:283][474]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
-[2018.12.02-11.33.25:283][474]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
-[2018.12.02-11.33.25:283][474]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
-[2018.12.02-11.33.25:283][474]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
-[2018.12.02-11.33.25:289][474]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
-[2018.12.02-11.33.25:294][474]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
-[2018.12.02-11.33.25:295][474]LogModuleManager: Shutting down and abandoning module SourceControl (303)
-[2018.12.02-11.33.25:295][474]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
-[2018.12.02-11.33.25:303][474]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
-[2018.12.02-11.33.25:303][474]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
-[2018.12.02-11.33.25:303][474]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
-[2018.12.02-11.33.25:303][474]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
-[2018.12.02-11.33.25:319][474]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
-[2018.12.02-11.33.25:319][474]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2018.12.02-11.33.25:320][474]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2018.12.02-11.33.25:320][474]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2018.12.02-11.33.25:320][474]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2018.12.02-11.33.25:320][474]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2018.12.02-11.33.25:320][474]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2018.12.02-11.33.25:320][474]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2018.12.02-11.33.25:331][474]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2018.12.02-11.33.25:331][474]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2018.12.02-11.33.25:449][474]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2018.12.02-11.33.25:558][474]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.12.02-11.33.25:564][474]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.12.02-11.33.25:565][474]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.12.02-11.33.25:565][474]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.12.02-11.33.25:582][474]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.12.02-11.33.25:653][474]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.12.02-11.33.25:671][474]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.12.02-11.33.25:704][474]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.12.02-11.33.25:704][474]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.12.02-11.33.25:704][474]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.12.02-11.33.25:733][474]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.12.02-11.33.25:735][474]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.12.02-11.33.25:753][474]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.12.02-11.33.25:753][474]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.12.02-11.33.25:755][474]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.12.02-11.33.26:446][474]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.12.02-11.33.26:455][474]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.12.02-11.33.26:464][474]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.12.02-11.33.26:476][474]LogModuleManager: Shutting down and abandoning module Media (233)
-[2018.12.02-11.33.26:482][474]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2018.12.02-11.33.26:483][474]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2018.12.02-11.33.26:483][474]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2018.12.02-11.33.26:510][474]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2018.12.02-11.33.26:510][474]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.12.02-11.33.26:510][474]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.12.02-11.33.26:510][474]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.12.02-11.33.26:525][474]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.12.02-11.33.26:526][474]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.12.02-11.33.26:526][474]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.12.02-11.33.26:577][474]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.12.02-11.33.26:591][474]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.12.02-11.33.26:613][474]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.12.02-11.33.26:613][474]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.12.02-11.33.26:634][474]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.12.02-11.33.26:666][474]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.12.02-11.33.26:684][474]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.12.02-11.33.26:684][474]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.12.02-11.33.26:703][474]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.12.02-11.33.26:703][474]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.12.02-11.33.26:705][474]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.12.02-11.33.26:705][474]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.12.02-11.33.26:705][474]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.12.02-11.33.26:705][474]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.12.02-11.33.26:705][474]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.12.02-11.33.26:705][474]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.12.02-11.33.26:705][474]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.12.02-11.33.26:716][474]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.12.02-11.33.26:716][474]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.12.02-11.33.26:737][474]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.12.02-11.33.26:737][474]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.12.02-11.33.26:737][474]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.12.02-11.33.26:752][474]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.12.02-11.33.26:773][474]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.12.02-11.33.26:784][474]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.12.02-11.33.26:793][474]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.12.02-11.33.26:795][474]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.12.02-11.33.26:841][474]LogDerivedDataCache: Shutdown
-[2018.12.02-11.33.26:841][474]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.12.02-11.33.26:841][474]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.12.02-11.33.26:842][474]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.12.02-11.33.26:842][474]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.12.02-11.33.26:856][474]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.12.02-11.33.26:865][474]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.12.02-11.33.26:872][474]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.12.02-11.33.26:880][474]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.12.02-11.33.26:899][474]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.12.02-11.33.26:899][474]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.12.02-11.33.26:899][474]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.12.02-11.33.26:910][474]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.12.02-11.33.26:915][474]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.12.02-11.33.26:916][474]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.12.02-11.33.26:935][474]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.12.02-11.33.26:935][474]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.12.02-11.33.26:935][474]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.12.02-11.33.26:935][474]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.12.02-11.33.26:935][474]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.12.02-11.33.26:964][474]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.12.02-11.33.26:985][474]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.12.02-11.33.26:997][474]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.12.02-11.33.26:997][474]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B339C3B23-410A-CE32-32F9-3DB559E4FC43%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=484636684161da8322017982f7c3f94d%7C076371b90f624121a03553dc2fb79ee8%7C47796286-ef2a-464a-b3cb-eb94106f420e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.12.02-11.33.27:014][474]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.12.02-11.33.27:041][474]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.12.02-11.33.27:062][474]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.12.02-11.33.27:076][474]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.12.02-11.33.27:088][474]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.12.02-11.33.27:106][474]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.12.02-11.33.27:106][474]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.12.02-11.33.27:106][474]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.12.02-11.33.27:124][474]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.12.02-11.33.27:150][474]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.12.02-11.33.27:150][474]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.12.02-11.33.27:170][474]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.12.02-11.33.27:171][474]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.12.02-11.33.27:171][474]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.12.02-11.33.27:171][474]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.12.02-11.33.27:184][474]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.12.02-11.33.27:184][474]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.12.02-11.33.27:196][474]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.12.02-11.33.27:209][474]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.12.02-11.33.27:236][474]LogExit: Exiting.
-[2018.12.02-11.33.27:287][474]Log file closed, 12/02/18 11:33:27
+[2018.12.02-15.02.55:506][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.02-15.02.55:506][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.02-15.02.55:554][  0]LogInit: Computer: DESKTOP-GSMP8EH
+[2018.12.02-15.02.55:554][  0]LogInit: User: Connorwhitehouse
+[2018.12.02-15.02.55:554][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.02-15.02.55:554][  0]LogInit: High frequency timer resolution =3.513591 MHz
+[2018.12.02-15.02.55:554][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.12.02-15.02.55:554][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.02-15.02.55:554][  0]LogMemory: Process Physical Memory: 274.51 MB used, 274.51 MB peak
+[2018.12.02-15.02.55:554][  0]LogMemory: Process Virtual Memory: 264.81 MB used, 264.81 MB peak
+[2018.12.02-15.02.55:554][  0]LogMemory: Physical Memory: 5477.82 MB used,  2656.34 MB free, 8134.16 MB total
+[2018.12.02-15.02.55:554][  0]LogMemory: Virtual Memory: 4795.26 MB used,  2656.34 MB free, 134217728.00 MB total
+[2018.12.02-15.02.55:938][  0]LogInit: Using OS detected language (en-US).
+[2018.12.02-15.02.55:938][  0]LogInit: Using OS detected locale (en-GB).
+[2018.12.02-15.02.56:059][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.02-15.02.57:176][  0]LogStreaming: Display: Took  1.237s to EndInitTextLocalization.
+[2018.12.02-15.02.57:176][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.02-15.02.57:412][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.02-15.02.57:412][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.02-15.02.59:765][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.02-15.02.59:853][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.12.02-15.02.59:853][  0]LogD3D11RHI:       4043/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.02-15.02.59:856][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.02-15.02.59:856][  0]LogD3D11RHI:       0/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.02-15.02.59:856][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.02-15.02.59:867][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.02-15.02.59:867][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.02-15.02.59:867][  0]LogWindows: EnumDisplayDevices:
+[2018.12.02-15.02.59:867][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.12.02-15.02.59:868][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.12.02-15.02.59:868][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.12.02-15.02.59:868][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.12.02-15.02.59:868][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.02-15.02.59:868][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.12.02-15.02.59:868][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.02-15.02.59:868][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.02-15.02.59:868][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.12.02-15.02.59:929][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.12.02-15.02.59:929][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.12.02-15.02.59:929][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.02-15.02.59:965][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.02-15.03.00:015][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Intermediate/Shaders/WorkingDirectory/7568/).
+[2018.12.02-15.03.00:015][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Connor whitehouse/AppData/Local/Temp/UnrealShaderWorkingDir/2E46A4334BF986983291ED83B51283E8/'.
+[2018.12.02-15.03.01:271][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.02-15.03.01:290][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.02-15.03.01:314][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.02-15.03.01:332][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.02-15.03.01:405][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.02-15.03.01:444][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.02-15.03.01:499][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.02-15.03.01:529][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.02-15.03.01:542][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.02-15.03.01:564][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.12.02-15.03.01:595][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.12.02-15.03.01:620][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.12.02-15.03.01:647][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.12.02-15.03.01:676][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.12.02-15.03.01:695][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.12.02-15.03.01:754][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.12.02-15.03.01:754][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.12.02-15.03.01:815][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.02-15.03.01:847][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.02-15.03.01:983][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.02-15.03.01:995][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.02-15.03.02:024][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.02-15.03.02:037][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.02-15.03.02:069][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.02-15.03.02:121][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.02-15.03.02:121][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.02-15.03.02:869][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.02-15.03.02:869][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.02-15.03.02:869][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.02-15.03.04:958][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.02-15.03.05:203][  0]LogDerivedDataCache: Loaded boot cache 0.24s 74MB C:/Users/Connor whitehouse/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.12.02-15.03.05:203][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Connor whitehouse/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.12.02-15.03.05:204][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.02-15.03.05:204][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.02-15.03.05:204][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.02-15.03.05:204][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.02-15.03.05:243][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.02-15.03.05:255][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Connor whitehouse/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.02-15.03.05:255][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.02-15.03.05:255][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.02-15.03.05:267][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.02-15.03.05:268][  0]LogSlate: Using Freetype 2.6.0
+[2018.12.02-15.03.05:294][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.02-15.03.05:294][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.02-15.03.08:127][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.12.02-15.03.09:158][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.02-15.03.09:433][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.02-15.03.09:444][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.02-15.03.09:444][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.02-15.03.09:444][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.02-15.03.09:444][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.12.02-15.03.09:444][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.12.02-15.03.09:474][  0]LogNetVersion: UTAMA_Alpha , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1343494140)
+[2018.12.02-15.03.09:977][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.089393 seconds
+[2018.12.02-15.03.09:982][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.12.02-15.03.09:982][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.12.02-15.03.09:982][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.02-15.03.32:594][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.02-15.03.32:657][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.02-15.03.33:443][  0]SourceControl: Source control is disabled
+[2018.12.02-15.03.33:444][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:444][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2018.12.02-15.03.33:444][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:444][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2018.12.02-15.03.33:445][  0]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2018.12.02-15.03.33:445][  0]LogWindows: Warning: URL: C:\Users\Connor whitehouse\AppData\Local/Programs/Git/cmd/git.exe version
+[2018.12.02-15.03.33:445][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:445][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2018.12.02-15.03.33:445][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:445][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2018.12.02-15.03.33:445][  0]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2018.12.02-15.03.33:445][  0]LogWindows: Warning: URL: C:\Users\Connor whitehouse\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2018.12.02-15.03.33:446][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:446][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2018.12.02-15.03.33:506][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:506][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2018.12.02-15.03.33:506][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:506][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2018.12.02-15.03.33:506][  0]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2018.12.02-15.03.33:506][  0]LogWindows: Warning: URL: C:\Users\Connor whitehouse\AppData\Local/Programs/Git/cmd/git.exe version
+[2018.12.02-15.03.33:507][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:507][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2018.12.02-15.03.33:507][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:507][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2018.12.02-15.03.33:507][  0]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2018.12.02-15.03.33:507][  0]LogWindows: Warning: URL: C:\Users\Connor whitehouse\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2018.12.02-15.03.33:507][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:507][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2018.12.02-15.03.33:546][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:546][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2018.12.02-15.03.33:547][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:547][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2018.12.02-15.03.33:547][  0]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2018.12.02-15.03.33:547][  0]LogWindows: Warning: URL: C:\Users\Connor whitehouse\AppData\Local/Programs/Git/cmd/git.exe version
+[2018.12.02-15.03.33:547][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:547][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2018.12.02-15.03.33:547][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:547][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2018.12.02-15.03.33:548][  0]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2018.12.02-15.03.33:548][  0]LogWindows: Warning: URL: C:\Users\Connor whitehouse\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2018.12.02-15.03.33:548][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.33:548][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2018.12.02-15.03.34:756][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.02-15.03.35:110][  0]LogOcInput: OculusInput pre-init called
+[2018.12.02-15.03.35:446][  0]LogEngine: Initializing Engine...
+[2018.12.02-15.03.35:448][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.02-15.03.35:449][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.02-15.03.35:449][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.02-15.03.35:830][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.02-15.03.35:867][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.02-15.03.35:884][  0]LogInit: FAudioDevice initialized.
+[2018.12.02-15.03.35:984][  0]LogDerivedDataCache: Saved boot cache 0.10s 74MB C:/Users/Connor whitehouse/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.12.02-15.03.36:007][  0]LogInit: Texture streaming: Enabled
+[2018.12.02-15.03.36:116][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.02-15.03.36:215][  0]LogInit: Transaction tracking system initialized
+[2018.12.02-15.03.36:458][  0]BlueprintLog: New page: Editor Load
+[2018.12.02-15.03.36:556][  0]LocalizationService: Localization service is disabled
+[2018.12.02-15.03.36:657][  0]LogConsoleResponse: Display: 
+[2018.12.02-15.03.36:814][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.02-15.03.36:814][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.02-15.03.36:814][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.02-15.03.36:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.02-15.03.36:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.02-15.03.37:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Content/' took 0.02s
+[2018.12.02-15.03.37:204][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.37:204][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2018.12.02-15.03.37:205][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.37:205][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2018.12.02-15.03.37:205][  0]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2018.12.02-15.03.37:205][  0]LogWindows: Warning: URL: C:\Users\Connor whitehouse\AppData\Local/Programs/Git/cmd/git.exe version
+[2018.12.02-15.03.37:205][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.37:205][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2018.12.02-15.03.37:205][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.37:205][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2018.12.02-15.03.37:206][  0]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2018.12.02-15.03.37:206][  0]LogWindows: Warning: URL: C:\Users\Connor whitehouse\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2018.12.02-15.03.37:206][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.12.02-15.03.37:206][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2018.12.02-15.03.37:206][  0]Cmd: MAP LOAD FILE="C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Content/ALPHA2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.02-15.03.37:206][  0]LightingResults: New page: Lighting Build
+[2018.12.02-15.03.37:209][  0]MapCheck: New page: Map Check
+[2018.12.02-15.03.37:209][  0]LightingResults: New page: Lighting Build
+[2018.12.02-15.03.37:276][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a542189c00, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.12.02-15.03.37:289][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a542189c00, Size=64
+[2018.12.02-15.03.37:289][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a542189d40, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.12.02-15.03.37:298][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a527936750, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.12.02-15.03.37:351][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a52449a340, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.12.02-15.03.37:359][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a52449a340, Size=296
+[2018.12.02-15.03.37:359][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a52449a340, Size=296, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_4:ExecuteUbergraph_ThirdPersonCharacter
+[2018.12.02-15.03.37:365][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a524498b80, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.12.02-15.03.37:818][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [14.841511ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.12.02-15.03.37:879][  0]LogAIModule: Creating AISystem for world ALPHA2
+[2018.12.02-15.03.37:969][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.02-15.03.37:985][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a542189d40, Size=64
+[2018.12.02-15.03.37:990][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a52449a340, Size=296
+[2018.12.02-15.03.37:990][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.02-15.03.38:059][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.568ms to complete.
+[2018.12.02-15.03.38:059][  0]LogFileHelpers: Loading map 'ALPHA2' took 0.853
+[2018.12.02-15.03.38:197][  0]LogCollectionManager: Loaded 0 collections in 0.001415 seconds
+[2018.12.02-15.03.38:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Collections/' took 0.01s
+[2018.12.02-15.03.38:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Content/Developers/Connorwhitehouse/Collections/' took 0.01s
+[2018.12.02-15.03.38:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Content/Collections/' took 0.01s
+[2018.12.02-15.03.38:238][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.02-15.03.38:248][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2452 classes and 558 folders.
+[2018.12.02-15.03.38:256][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.02-15.03.38:311][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.02-15.03.38:316][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.12.02-15.03.38:401][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.02-15.03.38:403][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.02-15.03.38:408][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.02-15.03.38:491][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.12.02-15.03.38:546][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.02-15.03.38:644][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.02-15.03.38:644][  0]LogLoad: (Engine Initialization) Total time: 69.20 seconds
+[2018.12.02-15.03.38:644][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.02-15.03.39:004][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.02-15.03.39:329][  1]LogAssetRegistry: Asset discovery search completed in 31.2247 seconds
+[2018.12.02-15.03.39:332][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.02-15.03.39:332][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000100 seconds (updated 0 objects)
+[2018.12.02-15.04.12:843][884]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush292)
+[2018.12.02-15.04.13:460][884]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.04.17:372][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.04.46:042][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.04.48:773][ 20]Cmd: EDIT COPY
+[2018.12.02-15.04.49:241][ 37]Cmd: EDIT PASTE
+[2018.12.02-15.04.55:016][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.05.07:477][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.05.20:949][975]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.05.28:592][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.05.40:969][994]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.05.48:369][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.05.58:354][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.07.36:415][256]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.07.53:969][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.09.26:523][745]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.09.28:920][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.09.31:623][181]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush497)
+[2018.12.02-15.09.41:801][958]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.11.28:217][565]Cmd: SELECT NONE
+[2018.12.02-15.13.29:817][456]LogSlate: Took 0.005204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.02-15.13.39:298][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.12.02-15.13.41:017][484]LogSavePackage: Save=1666.77ms
+[2018.12.02-15.13.41:017][484]LogSavePackage: Moving 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/ALPHA2_Auto1BC8954C5475EAF91FA215FAB2CED53A5.tmp' to 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto1.umap'
+[2018.12.02-15.13.41:033][484]LogSavePackage: Display: Finished SavePackage C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto1.umap
+[2018.12.02-15.13.41:057][484]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ALPHA2' took 1.887
+[2018.12.02-15.13.41:057][484]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.887
+[2018.12.02-15.16.31:324][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.16.37:220][789]Cmd: TRANSACTION UNDO
+[2018.12.02-15.16.37:220][789]LogEditorTransaction: Undo Edit Y
+[2018.12.02-15.16.37:352][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush249.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:353][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush2_10.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:357][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush185_131.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:358][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush200_151.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:359][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush169_76.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:361][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush270.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:362][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush46.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:437][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:441][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush164.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:442][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush73.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:446][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush437.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:448][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush391.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:451][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush342.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:454][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush465.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:456][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush301.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:458][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush201.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:459][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush295.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:461][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush344.BrushComponent0) Component already registered.
+[2018.12.02-15.16.37:464][789]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:608][132]Cmd: TRANSACTION UNDO
+[2018.12.02-15.16.42:608][132]LogEditorTransaction: Undo Edit X
+[2018.12.02-15.16.42:723][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush249.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:725][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush2_10.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:728][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush185_131.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:729][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush200_151.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:730][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush169_76.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:732][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush270.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:735][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush46.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:808][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:812][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush164.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:813][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush73.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:817][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush437.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:818][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush391.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:822][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush342.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:825][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush465.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:827][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush301.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:829][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush201.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:829][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush295.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:831][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush344.BrushComponent0) Component already registered.
+[2018.12.02-15.16.42:835][132]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2018.12.02-15.16.53:985][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.17.02:295][699]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush497)
+[2018.12.02-15.17.06:025][924]LogEditorViewport: Clicking on Actor (context menu): Brush (Linear Stair Brush7)
+[2018.12.02-15.17.06:110][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.17.06:788][987]LogEditorViewport: Clicking Background
+[2018.12.02-15.17.08:850][152]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush497)
+[2018.12.02-15.18.46:030][841]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush498)
+[2018.12.02-15.18.48:387][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.18.48:905][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.18.53:942][591]Cmd: DELETE
+[2018.12.02-15.18.53:942][591]Cmd: ACTOR DELETE
+[2018.12.02-15.18.54:045][591]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-15.18.54:926][591]LogEditorActor: Deleted 1 Actors (0.984 secs)
+[2018.12.02-15.18.56:142][705]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.19.01:892][347]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.19.12:061][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.19.15:871][948]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.19.17:848][134]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush497)
+[2018.12.02-15.19.21:913][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.19.37:716][992]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.19.38:579][ 85]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush304)
+[2018.12.02-15.19.41:066][233]LogEditorViewport: Clicking Background
+[2018.12.02-15.19.41:704][306]LogEditorViewport: Clicking Background
+[2018.12.02-15.19.41:994][340]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush497)
+[2018.12.02-15.20.13:535][254]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.20.13:759][279]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.20.14:227][332]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.20.14:841][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.20.16:442][585]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.20.20:618][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.20.22:438][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.20.31:652][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.20.40:769][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.20.42:498][538]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.12.02-15.20.44:078][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.20.44:719][737]LogEditorViewport: Clicking Background
+[2018.12.02-15.20.45:793][847]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush58)
+[2018.12.02-15.20.56:836][803]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush501)
+[2018.12.02-15.20.56:872][803]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.23.06:610][601]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush58)
+[2018.12.02-15.23.10:393][  9]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.23.19:356][918]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.23.26:093][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.23.33:614][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.23.36:585][661]Cmd: TRANSACTION UNDO
+[2018.12.02-15.23.36:585][661]LogEditorTransaction: Undo Scale Actors
+[2018.12.02-15.23.36:685][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush4.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:685][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush16_38.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:687][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush280.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:688][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush194_140.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:693][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:761][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:764][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush129.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:768][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush94.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:771][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush437.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:773][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush391.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:780][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush465.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:782][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush301.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:784][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush201.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:785][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush295.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:787][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush344.BrushComponent0) Component already registered.
+[2018.12.02-15.23.36:789][661]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2018.12.02-15.23.37:997][752]Cmd: TRANSACTION UNDO
+[2018.12.02-15.23.37:997][752]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.02-15.23.40:039][987]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush58)
+[2018.12.02-15.23.42:048][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.23.46:332][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.23.54:976][450]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.23.57:062][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.24.27:599][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.12.02-15.24.29:257][275]LogSavePackage: Save=1613.85ms
+[2018.12.02-15.24.29:257][275]LogSavePackage: Moving 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/ALPHA2_Auto24D5FE06C46BE1EE38BD4A0BA558DFB67.tmp' to 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto2.umap'
+[2018.12.02-15.24.29:259][275]LogSavePackage: Display: Finished SavePackage C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto2.umap
+[2018.12.02-15.24.29:264][275]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ALPHA2' took 1.726
+[2018.12.02-15.24.29:264][275]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.726
+[2018.12.02-15.24.32:772][610]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.24.35:456][863]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.24.59:162][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.25.10:729][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.25.17:835][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.25.49:566][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.26.25:201][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.26.32:505][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.26.34:953][741]LogEditorViewport: Clicking Background
+[2018.12.02-15.26.35:892][852]LogEditorViewport: Clicking Background
+[2018.12.02-15.26.36:125][878]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.26.44:784][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.27.45:348][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.27.54:770][624]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.27.58:433][992]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.28.04:295][561]Cmd: TRANSACTION UNDO
+[2018.12.02-15.28.04:295][561]LogEditorTransaction: Undo Move Actors
+[2018.12.02-15.28.04:394][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush4.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:394][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush16_38.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:396][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush280.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:397][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush194_140.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:400][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:468][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:470][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush129.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:474][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush94.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:478][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush437.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:481][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush391.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:487][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush465.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:489][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush301.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:491][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush201.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:492][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush295.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:495][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush344.BrushComponent0) Component already registered.
+[2018.12.02-15.28.04:498][561]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2018.12.02-15.28.08:050][935]Cmd: EDIT COPY
+[2018.12.02-15.28.08:309][964]Cmd: EDIT PASTE
+[2018.12.02-15.28.31:402][148]Cmd: EDIT COPY
+[2018.12.02-15.28.31:607][172]Cmd: EDIT PASTE
+[2018.12.02-15.29.32:864][103]Cmd: EDIT COPY
+[2018.12.02-15.29.33:088][128]Cmd: EDIT PASTE
+[2018.12.02-15.29.58:179][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.31.25:060][806]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.32.01:542][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.32.23:430][292]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.32.27:021][681]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.12.02-15.32.39:624][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.32.43:377][414]Cmd: TRANSACTION UNDO
+[2018.12.02-15.32.43:377][414]LogEditorTransaction: Undo Edit Z
+[2018.12.02-15.32.43:482][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush259.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:486][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush233.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:489][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:490][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush187_133.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:492][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:494][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush175_82.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:495][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush22.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:497][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush180_87.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:565][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:567][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.LinearStairBrush9.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:568][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush141.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:568][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush151.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:571][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.LinearStairBrush2_11.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:572][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush422.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:576][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush397.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:576][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush372_1.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:577][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush411.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:579][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush478.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:580][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush496.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:585][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush20.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:586][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush206_25.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:587][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:589][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush351_7.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:592][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2018.12.02-15.32.43:595][414]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush60_24.BrushComponent0) Component already registered.
+[2018.12.02-15.32.58:305][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.33.00:252][430]Cmd: TRANSACTION UNDO
+[2018.12.02-15.33.00:252][430]LogEditorTransaction: Undo Edit X
+[2018.12.02-15.33.00:356][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush259.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:359][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush233.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:360][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:362][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush187_133.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:363][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:365][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush175_82.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:365][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush22.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:367][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush180_87.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:436][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:438][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.LinearStairBrush9.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:439][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush141.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:440][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush151.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:443][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.LinearStairBrush2_11.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:444][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush422.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:447][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush397.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:447][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush372_1.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:448][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush411.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:450][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush478.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:451][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush496.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:456][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush20.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:457][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush206_25.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:457][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:460][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush351_7.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:462][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2018.12.02-15.33.00:464][430]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush60_24.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:747][784]Cmd: TRANSACTION UNDO
+[2018.12.02-15.33.04:748][784]LogEditorTransaction: Undo Edit Y
+[2018.12.02-15.33.04:855][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush259.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:858][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush233.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:861][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:863][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush187_133.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:864][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:867][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush175_82.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:867][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush22.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:869][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush180_87.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:940][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:942][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.LinearStairBrush9.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:943][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush141.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:944][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush151.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:948][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.LinearStairBrush2_11.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:949][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush422.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:952][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush397.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:952][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush372_1.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:953][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush411.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:955][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush478.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:956][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush496.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:961][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush20.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:962][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush206_25.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:963][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:968][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush351_7.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:970][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2018.12.02-15.33.04:971][784]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush60_24.BrushComponent0) Component already registered.
+[2018.12.02-15.33.14:777][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.33.29:049][975]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.33.40:479][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.33.55:641][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.33.57:710][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.34.08:256][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.34.14:265][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.34.26:050][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.34.35:929][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.34.56:455][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.35.15:933][887]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.35.33:525][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.35.36:845][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.12.02-15.35.38:508][309]LogSavePackage: Save=1635.69ms
+[2018.12.02-15.35.38:508][309]LogSavePackage: Moving 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/ALPHA2_Auto37D6921684F4642D6DA3A29A167E18364.tmp' to 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto3.umap'
+[2018.12.02-15.35.38:511][309]LogSavePackage: Display: Finished SavePackage C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto3.umap
+[2018.12.02-15.35.38:514][309]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ALPHA2' took 1.870
+[2018.12.02-15.35.38:514][309]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.870
+[2018.12.02-15.36.47:563][860]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.36.56:374][855]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.37.04:785][813]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush87)
+[2018.12.02-15.37.09:918][293]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush88)
+[2018.12.02-15.38.17:852][138]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush248)
+[2018.12.02-15.38.21:656][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.38.37:202][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.40.06:660][668]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.40.08:059][818]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.40.14:807][569]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.40.17:886][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.40.18:734][924]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.12.02-15.40.36:730][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.40.38:631][689]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.40.43:337][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.40.52:225][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.40.52:925][125]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush501)
+[2018.12.02-15.40.53:998][228]LogEditorViewport: Clicking Background
+[2018.12.02-15.40.54:547][292]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush498)
+[2018.12.02-15.41.01:407][961]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.41.10:280][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.41.51:706][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.42.02:350][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.42.24:295][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.42.35:390][333]Cmd: TRANSACTION UNDO
+[2018.12.02-15.42.35:391][333]LogEditorTransaction: Undo Scale Actors
+[2018.12.02-15.42.35:492][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush4_14.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:494][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush234.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:494][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush18_42.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:499][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush23.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:500][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush273.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:500][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush176_83.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:501][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:502][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:502][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:572][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush22.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:581][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush427.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:581][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush390_57.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:581][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush441.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:586][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush479.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:587][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush497.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:590][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush300.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:591][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush28.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:593][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush103.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:593][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush16.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:595][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush213.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:596][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush346.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:597][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush338.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:597][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush359.BrushComponent0) Component already registered.
+[2018.12.02-15.42.35:601][333]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush330.BrushComponent0) Component already registered.
+[2018.12.02-15.42.38:546][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.42.39:986][687]Cmd: TRANSACTION UNDO
+[2018.12.02-15.42.39:986][687]LogEditorTransaction: Undo Edit X
+[2018.12.02-15.42.40:083][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush260.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:087][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush238.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:087][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush224.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:088][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:095][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush180_87.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:097][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:173][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush69.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:189][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush497.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:191][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush451.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:194][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush300.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:202][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush346.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:202][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush338.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:203][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush359.BrushComponent0) Component already registered.
+[2018.12.02-15.42.40:207][687]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush330.BrushComponent0) Component already registered.
+[2018.12.02-15.42.50:588][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.42.59:735][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.43.27:693][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.43.35:495][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.43.46:134][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.44.14:623][840]Cmd: SELECT NONE
+[2018.12.02-15.44.18:027][205]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.44.21:282][584]Cmd: EDIT COPY
+[2018.12.02-15.44.21:805][645]Cmd: EDIT PASTE
+[2018.12.02-15.44.54:211][918]Cmd: EDIT COPY
+[2018.12.02-15.44.54:504][952]Cmd: EDIT PASTE
+[2018.12.02-15.44.56:230][952]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.44.56:449][970]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.44.57:552][ 82]LogEditorViewport: Clicking Background
+[2018.12.02-15.44.58:404][182]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush506)
+[2018.12.02-15.45.10:788][223]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.45.41:758][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.12.02-15.45.43:409][999]LogSavePackage: Save=1625.05ms
+[2018.12.02-15.45.43:409][999]LogSavePackage: Moving 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/ALPHA2_Auto4E777836F4E1E72E522426B8AD8B9FEE5.tmp' to 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto4.umap'
+[2018.12.02-15.45.43:410][999]LogSavePackage: Display: Finished SavePackage C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto4.umap
+[2018.12.02-15.45.43:412][999]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ALPHA2' took 1.766
+[2018.12.02-15.45.43:413][999]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.766
+[2018.12.02-15.46.23:486][963]Cmd: EDIT COPY
+[2018.12.02-15.46.23:758][995]Cmd: EDIT PASTE
+[2018.12.02-15.46.41:439][408]Cmd: EDIT COPY
+[2018.12.02-15.46.41:661][434]Cmd: EDIT PASTE
+[2018.12.02-15.48.18:591][360]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.48.30:482][596]Cmd: SELECT NONE
+[2018.12.02-15.51.06:492][958]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.51.47:506][498]Cmd: SELECT NONE
+[2018.12.02-15.51.49:669][682]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.51.54:203][212]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush58)
+[2018.12.02-15.51.56:476][470]Cmd: EDIT COPY
+[2018.12.02-15.51.56:733][500]Cmd: EDIT PASTE
+[2018.12.02-15.52.22:402][456]Cmd: DELETE
+[2018.12.02-15.52.22:402][456]Cmd: ACTOR DELETE
+[2018.12.02-15.52.22:458][456]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-15.52.23:374][456]LogEditorActor: Deleted 1 Actors (0.971 secs)
+[2018.12.02-15.52.23:876][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.52.37:777][895]Cmd: EDIT COPY
+[2018.12.02-15.52.38:043][926]Cmd: EDIT PASTE
+[2018.12.02-15.52.40:057][951]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.52.44:686][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.52.50:218][990]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.52.52:225][226]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.52.57:450][717]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.53.52:246][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.54.40:387][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.54.43:432][ 50]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush58)
+[2018.12.02-15.54.45:533][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.54.48:312][570]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush58)
+[2018.12.02-15.54.49:219][647]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush87)
+[2018.12.02-15.54.50:916][822]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush88)
+[2018.12.02-15.54.51:880][929]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush139)
+[2018.12.02-15.54.52:833][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.54.57:226][433]Cmd: SELECT NONE
+[2018.12.02-15.54.58:215][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.55.44:032][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.55.44:105][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.12.02-15.55.45:838][443]LogSavePackage: Save=1655.33ms
+[2018.12.02-15.55.45:838][443]LogSavePackage: Moving 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/ALPHA2_Auto500847AC149B2AF38AE1894A7153D1DC9.tmp' to 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto5.umap'
+[2018.12.02-15.55.45:840][443]LogSavePackage: Display: Finished SavePackage C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/Autosaves/Game/ALPHA2_Auto5.umap
+[2018.12.02-15.55.45:843][443]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ALPHA2' took 1.781
+[2018.12.02-15.55.45:843][443]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.781
+[2018.12.02-15.56.18:770][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.56.37:817][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.56.54:759][915]Cmd: DELETE
+[2018.12.02-15.56.54:759][915]Cmd: ACTOR DELETE
+[2018.12.02-15.56.54:809][915]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-15.56.54:810][915]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-15.56.54:810][915]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-15.56.55:714][915]LogEditorActor: Deleted 3 Actors (0.953 secs)
+[2018.12.02-15.56.58:533][231]Cmd: EDIT COPY
+[2018.12.02-15.57.00:035][404]Cmd: EDIT PASTE
+[2018.12.02-15.57.01:866][412]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.57.08:738][ 71]Cmd: TRANSACTION UNDO
+[2018.12.02-15.57.08:738][ 71]LogEditorTransaction: Undo Move Actors
+[2018.12.02-15.57.08:845][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush5_17.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:847][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush225.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:847][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush239.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:847][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:848][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.SphereBrush19_44.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:851][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush172_79.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:854][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:926][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush147.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:932][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush95.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:939][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush506.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:940][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush500.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:942][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush444.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:942][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush458.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:942][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush472.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:943][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush301.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:950][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush357.BrushComponent0) Component already registered.
+[2018.12.02-15.57.08:956][ 71]LogActorComponent: ~FComponentReregisterContext: (/Game/ALPHA2.ALPHA2:PersistentLevel.BoxBrush113_43.BrushComponent0) Component already registered.
+[2018.12.02-15.57.09:242][ 71]Cmd: TRANSACTION UNDO
+[2018.12.02-15.57.09:242][ 71]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.02-15.57.09:258][ 71]Cmd: TRANSACTION UNDO
+[2018.12.02-15.57.09:258][ 71]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.02-15.57.09:273][ 71]Cmd: TRANSACTION UNDO
+[2018.12.02-15.57.09:274][ 71]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.02-15.57.09:406][ 76]Cmd: TRANSACTION UNDO
+[2018.12.02-15.57.09:406][ 76]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.02-15.57.09:558][ 84]Cmd: TRANSACTION UNDO
+[2018.12.02-15.57.09:558][ 84]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.02-15.57.09:728][ 99]Cmd: TRANSACTION UNDO
+[2018.12.02-15.57.09:728][ 99]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.02-15.57.20:507][274]Cmd: EDIT COPY
+[2018.12.02-15.57.20:878][313]Cmd: EDIT PASTE
+[2018.12.02-15.57.33:293][298]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.57.35:761][567]LogEditorViewport: Clicking Background
+[2018.12.02-15.57.36:018][595]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.57.41:126][202]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush88)
+[2018.12.02-15.57.47:367][839]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush139)
+[2018.12.02-15.57.51:425][214]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush87)
+[2018.12.02-15.58.04:370][ 67]Cmd: EDIT COPY
+[2018.12.02-15.58.04:625][ 97]Cmd: EDIT PASTE
+[2018.12.02-15.58.15:845][123]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.58.18:576][441]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.58.21:297][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-15.58.37:464][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-15.59.15:982][325]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.00.14:420][981]Cmd: DELETE
+[2018.12.02-16.00.14:420][981]Cmd: ACTOR DELETE
+[2018.12.02-16.00.14:485][981]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-16.00.14:485][981]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-16.00.14:485][981]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-16.00.14:485][981]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-16.00.14:485][981]LogEditorActor: Deleted Actor: Brush
+[2018.12.02-16.00.15:405][981]LogEditorActor: Deleted 5 Actors (0.984 secs)
+[2018.12.02-16.00.17:020][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-16.00.17:809][257]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.12.02-16.00.19:551][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-16.00.41:931][343]Cmd: EDCALLBACK SURFPROPS
+[2018.12.02-16.00.44:772][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-16.00.55:227][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-16.01.05:002][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.02-16.01.19:362][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.01.26:947][595]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.01.29:440][877]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.01.30:383][986]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.01.38:141][879]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.01.43:486][510]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.01.43:846][551]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.01.48:453][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.01.59:086][247]Cmd: EDIT COPY
+[2018.12.02-16.01.59:521][298]Cmd: EDIT PASTE
+[2018.12.02-16.02.10:517][289]Cmd: EDIT COPY
+[2018.12.02-16.02.10:815][324]Cmd: EDIT PASTE
+[2018.12.02-16.02.12:569][324]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.02.12:760][340]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush58)
+[2018.12.02-16.02.12:795][340]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.02.13:457][413]LogEditorViewport: Clicking Background
+[2018.12.02-16.02.14:604][548]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush505)
+[2018.12.02-16.02.22:500][378]Cmd: EDIT COPY
+[2018.12.02-16.02.22:862][420]Cmd: EDIT PASTE
+[2018.12.02-16.03.06:901][163]Cmd: EDIT COPY
+[2018.12.02-16.03.07:156][193]Cmd: EDIT PASTE
+[2018.12.02-16.04.11:027][265]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.04.11:267][292]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.04.17:019][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.04.37:198][124]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.04.40:300][473]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.02-16.04.42:158][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ALPHA2" FILE="C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Content/ALPHA2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.02-16.04.43:837][473]LogSavePackage: Save=1634.15ms
+[2018.12.02-16.04.43:837][473]LogSavePackage: Moving 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Saved/ALPHA2720390AF40E1C0491630B2AE9A943D7B.tmp' to 'C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Content/ALPHA2.umap'
+[2018.12.02-16.04.43:845][473]LogSavePackage: Display: Finished SavePackage C:/Users/Connor whitehouse/Documents/GitHub/UTAMA_Alpha/Content/ALPHA2.umap
+[2018.12.02-16.04.43:996][473]LogFileHelpers: Saving map 'ALPHA2' took 3.675
